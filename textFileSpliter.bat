@@ -47,7 +47,7 @@
     	echo Done!
     	goto end
     :syntaxerror
-    	Echo Syntax: %0 -f Filname -s NumberOfRowsPerFile
+    	Echo Syntax: %0 -f Filname -n NumberOfRowsPerFile
     	goto end
     :nofile
     	echo %2 does not exist
